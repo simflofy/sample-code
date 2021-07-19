@@ -1,0 +1,151 @@
+
+
+##########################
+## Java
+##########################
+*.class
+.mtj.tmp/
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+deploy.bat
+
+##########################
+## Java
+##########################
+*.class
+.mtj.tmp/
+*.war
+*.ear
+hs_err_pid*
+ 
+##########################
+## Maven
+##########################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+ 
+##########################
+## IntelliJ
+##########################
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+.idea_modules/
+.run/
+
+##########################
+## Eclipse
+##########################
+.metadata
+.classpath
+.project
+.settings/
+#bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+Servers/
+.recommenders/
+ 
+##########################
+## NetBeans
+##########################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+=======
+hs_err_pid*
+ 
+##########################
+## Maven
+##########################
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+ 
+##########################
+## IntelliJ
+##########################
+*.iml
+.idea/
+*.ipr
+*.iws
+out/
+.idea_modules/
+ 
+##########################
+## Eclipse
+.classpath
+.project
+.settings/
+target/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.loadpath
+ 
+##########################
+## NetBeans
+##########################
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+=======
+
+# LOGS
+catalina.out
+*.project
+simflofy/simflofy-data/.project
+*.classpath
+*.classpath
+connectors/simflofy-text-connector/.springBeans
+*.classpath
+*.springBeans
+*.classpath
+
+#Ignore Local Properties
+simflofy/simflofy-admin/src/main/resources/simflofy-local.properties
+connectors/simflofy-ibm-imageservices/orbtrc.15062020.1409.28.txt
+/simflofy/simflofy-admin/src/main/resources/demo/
+
+#Ignore WSDL To Java Folders
+wsdl2java/

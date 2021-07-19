@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.simflofy</groupId>
+    <artifactId>sampleTask</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+    <repositories>
+        <!-- Simflofy Repository -->
+        <repository>
+            <id>simflofy.release.repo</id>
+            <url>https://nexus.simflofy.com/nexus/content/repositories/releases</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+        <!-- Maven Repository -->
+        <repository>
+            <id>mvnCentral</id>
+            <url>https://repo1.maven.org/maven2/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+
+    </repositories>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>5.2.11.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>com.simflofy.simflome</groupId>
+            <artifactId>simflome-core</artifactId>
+            <version>3.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.simflofy.simflome</groupId>
+            <artifactId>simflofy-data</artifactId>
+            <version>3.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.simflofy.simflome</groupId>
+            <artifactId>simflofy-tasks-core</artifactId>
+            <version>3.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
